@@ -10,6 +10,7 @@ const [limite, setLimite] = useState(10);
  function AddContar(contador) {
     if(contador <= 0 ) return;
 
+    //valor de contador é maior ou igual ao valor de uma variável chamada limite.
     if(contador >= limite){
      setContador(10)
       return;
